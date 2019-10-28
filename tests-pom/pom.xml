@@ -15,6 +15,14 @@
     <groupId>eclipse.jdt.core</groupId>
     <artifactId>eclipse.jdt.core</artifactId>
     <version>4.14.0-SNAPSHOT</version>
+    <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+      <dependency>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.6.0.1398</version>
+      </dependency>
+      </dependencies>
   </parent>
   <artifactId>tests-pom</artifactId>
   <version>4.14.0-SNAPSHOT</version>
